@@ -1,0 +1,20 @@
+{
+    "name": "gm-see-whispers",
+    "title": "GM Always See Whispers",
+    "description": "Gamemaster can see whispers between players",
+    "authors": [
+        {
+            "name": "naxdir",
+            "flags": {}
+        }
+    ],
+    "version": "1.0.0",
+    "scripts": [
+        "scripts/gm-see-whispers.js"
+    ],
+    "compatibility": {
+        "minimum": "6",
+        "verified": "11"
+    },
+    "minimumCoreVersion": "6"
+}

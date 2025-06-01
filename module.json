@@ -6,15 +6,18 @@
         {
             "name": "naxdir",
             "flags": {}
+        },
+        {
+            "name": "Jean-Baptiste Louvet-Daniel",
+            "email": "linkedfluuuush@gmail.com",
+            "discord": "LinkedFluuuush"
         }
     ],
-    "version": "1.0.0",
-    "scripts": [
-        "scripts/gm-see-whispers.js"
-    ],
+    "version": "1.0.1",
+    "scripts": ["scripts/gm-see-whispers.js"],
     "compatibility": {
-        "minimum": "6",
-        "verified": "11"
+        "minimum": "12",
+        "verified": "12.331"
     },
-    "minimumCoreVersion": "6"
+    "url": "https://github.com/nadirgozcu/fvtt-gm-see-whispers"
 }

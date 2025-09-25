@@ -1,23 +1,27 @@
 {
-    "name": "gm-see-whispers",
+    "id": "gm-see-whispers",
     "title": "GM Always See Whispers",
-    "description": "Gamemaster can see whispers between players",
+    "description": "Adds GMs to all whisper messages",
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "11.315",
+        "verified": "13.348"
+    },
     "authors": [
         {
-            "name": "naxdir",
-            "flags": {}
-        },
-        {
-            "name": "Jean-Baptiste Louvet-Daniel",
-            "email": "linkedfluuuush@gmail.com",
-            "discord": "LinkedFluuuush"
+            "name": "Nadir",
+            "email": ""
         }
     ],
-    "version": "1.0.1",
-    "scripts": ["scripts/gm-see-whispers.js"],
-    "compatibility": {
-        "minimum": "12",
-        "verified": "12.331"
+    "relationships": {
+        "requires": []
     },
-    "url": "https://github.com/nadirgozcu/fvtt-gm-see-whispers"
+    "esmodules": [
+        "./scripts/gm-see-whispers.js"
+    ],
+    "styles": [
+    ],
+    "url": "https://github.com/nadirgozcu/fvtt-gm-see-whispers",
+    "manifest": "https://github.com/nadirgozcu/fvtt-gm-see-whispers/blob/main/module.json",
+    "download": "https://github.com/nadirgozcu/fvtt-gm-see-whispers/archive/refs/heads/main.zip"
 }
